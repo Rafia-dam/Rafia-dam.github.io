@@ -1,0 +1,187 @@
+.header .left{
+    width: 0px;
+    float:left;
+    height: 60px;
+    padding:25px 0 0 30px;
+    color:#FFFFFF;
+    }
+    .jam {
+        display: inline-block;
+        background-color: #925B22;
+        text-align: center;
+        clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+        font-size:20px;
+        color: #ffffff;
+    }
+    .header .right{
+        width:700px;
+        padding:5px 70px 0 0;
+        float:right;
+        }
+        
+        .left{
+        position: relative;
+        bottom:20px; 
+        }
+        ul.navigation{
+            display: inline-flex;
+            list-style:none;
+            margin:60px;
+            }
+            ul.navigation li{
+            display: block;
+            float: left;
+            text-align: center;
+            width: 125px;
+            height:40px;
+            color: #ffffff;
+            }
+            ul.navigation li a{
+            display: block;
+            width: 125px;
+            height:40px;
+            color: #FFFFFF;
+            font-size: 23px;
+            font-weight:bold;
+            line-height:30px;
+            text-decoration:none;
+            }
+            ul.navigation li a:hover, ul.navigation li a.active{
+            color: #925B22;
+            text-decoration: underline;
+            }
+            html::-webkit-scrollbar{
+                width: 15px;
+                }
+                html::-webkit-scrollbar-thumb{
+                background-color: #925B22;
+                border-radius: 10px;
+                }
+                html::-webkit-scrollbar-track{
+                background-color: #DCB383;
+                }
+                html::-webkit-scrollbar-corner{
+                background-color: #DCB383;
+                }
+            .no-warp.left{
+                margin: 200px;
+            }
+            .form-text{
+                color: #FFFFFF;
+                font-weight: bold;
+            }
+            p,.email.address{
+                line-height: 30px;
+                font-family: arial;
+                text-decoration: none;
+                }
+            .gmail{
+            width: 7rem;
+            }
+            .rightconten{
+                float: right;
+                position: relative;
+                background: #DCB383;
+                width: 380px;
+                height: 430px;
+                border-radius: 30px;
+            }
+            .form{
+                padding: 0 40px;
+                line-height: 20px;
+                display: flexbox;
+            }
+            
+            .form-input{
+                width: 300px;
+                height: 30px;
+                position:relative;
+                border: none;
+                border-radius: 10px;
+                background-color: antiquewhite;
+                line-height: 30px;
+            }
+            .form-input-message{
+                height: 120px;
+            }
+            .submit{
+                display: block;
+                background-color: #925B22;
+                border: none;
+                line-height: 30px;
+                border-radius: 10px;
+                color: #FFFFFF;
+                cursor: pointer;
+            }
+            button:hover{
+                background-color: antiquewhite;
+                color: #000;
+            }
+                hr{
+                    border-width: 5px;
+                    border-color: #925B22;
+                    border-radius: 5px;
+                }
+            h1,h3{
+                text-align: justify ;
+                text-align: center;
+            }
+            .map{
+                height: 200px;
+            }
+            .ig,.wa{
+                height: 60px;
+                display: flexbox ;
+            }
+            .contacttext{
+                display: flexbox ;
+            }
+            .popup{
+                width: 250px;
+                background:#DCB383 ;
+                border-radius: 10px;
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translate(-50%, -50%) scale(0.1);
+                text-align: center;
+                padding: 0 30px 30px;
+                visibility: hidden;
+                transition: transform 0.4s, top 0.4s;
+            }
+            .open-popup{
+                visibility: visible;
+                top: 50%;
+                transform: translate(-50%, -50%) scale(1);
+            }
+            .popup h2{
+                font-size: 38px;
+                font-weight: 500;
+                margin: 30px 0 10px;
+
+
+            }
+            .popup button{
+                width: 100%;
+                padding: 10px 0;
+                background: #925B22;
+                color: #FFFFFF;
+                border: 0;
+                outline: none;
+                font-size: 18px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            .popup button:hover{
+                background-color: antiquewhite;
+                color: #000;
+            }
+            .copy{
+                width: 1200px;
+                height: 25px;
+                margin: 0 auto;
+                color:#000000;
+                text-align:center;
+                font-size:14px;
+                }
+                

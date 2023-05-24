@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html"; charset="utf-8" />          
+        <link rel="stylesheet" href="style/CSS CONTACT.css">
+        <meta charset="utf-8">
+            <script src="script/index script.js"></script>
+        <title>KF Cake & Cookies</title>
+        <style media="screen">
+            body {
+            margin:0;
+            background:#000000 url(images/Background.jpg) repeat top;
+            font: normal medium "Trebuchet MS", Arial, Helvetica, sans-serif
+            }
+            .header{
+            width: 100%;
+            height: 160px;
+            margin: 0 auto;
+            background:url(images/logo.jpg) bottom right repeat;
+            }
+            .content{
+            width: 1200px;
+            margin: 0 auto;
+            background:url(images/kontenv2.jpg);
+            }
+            .container{
+            padding : 10px;
+            }
+            .footer{
+            width: 1200px;
+            height: 50px;
+            margin: 0 auto;
+            background:url(images/footer.jpg) top right no-repeat;
+            }
+            </style>
+  
+    </head>
+    <body>
+        <div class="header">
+                <div class="left">
+                <a href="index.html"><img class="logo" src="images/logonya.png" width="150px" height="150px" alt="KF Cake and Cookies"
+                /></a>
+                </div>
+                <div class="right">
+                    <ul class="navigation"> 
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><div class="jam"><p id="clock"></p></div></li>
+                    </ul>  
+                </div>
+        </div>
+        <div class="content">
+            <div class="container">
+            <div class="column">
+            <div class="left-column">
+            <div class="right-column">
+            <h1>Contact Us</h1>
+            <div class="no-warp">
+            <h3>Join Us By Spreading The Word</h3>
+            <hr><br>
+            <div class="left">
+            <table class="email">
+                <h2>For More Information Contact</h2> 
+                <div class="rightconten">
+                <div class="form">
+                <label for="name">
+                    <p class="form-text">Name</p>
+                    <input type="text" class="form-input" name="name" placeholder="Full name" required="">
+                </label>
+                <label for="email">
+                    <p class="form-text">Email</p>
+                    <input type="email" class="form-input" name="email" placeholder="Your email" required="">
+                </label>
+                <label for="message">
+                    <p class="form-text">Pesan</p>
+                    <textarea class="form-input form-input-message" name="message" rows="7" style="resize: none;" placeholder="Message"></textarea>
+                </label>
+                <button type="submit" class="submit" onclick="openPopup()">Submit</button>
+
+            </div>
+            </div>
+                <tbody>
+                    <tr>
+                        <td> Email : </td>
+                        <td>
+                            <gmail>achmadrafidam30@gmail.com</gmail>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Address : </td>
+                        <td>
+                            <address>
+                                KF Kitchen, Jalan Gondangdia Baru, RT.001/RW.005, Jaticempaka, Kota Bekasi, Jawa Barat
+                            </address>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <a href="https://goo.gl/maps/bpoS1sKo4Gmbkp5a7"target="_blank">
+           <img class="map" src="images/map.jpg"></a>
+           <p class="contacttext">You Can Also Contact Us On</p>
+           <a href="https://api.whatsapp.com/send?phone=6281513911150"target="_blank">
+            <img class="wa" src="images/logowa.png"></a>
+
+            <a href="https://www.instagram.com/kfcakecookies/"target="_blank">
+                <img class="ig" src="images/logoig.png"></a>
+           
+        </div>
+            <br><br><br><hr>
+            
+            </div>
+            <div class="popup" id="popup">
+            <h2>Thank You</h2>
+            <p>Your Help Is Really Appreciated</p>
+            <button type="button" onclick="closePopup()" >Close</button>
+            </div>  
+            </div>
+            </div>
+            </div>
+        <div class="footer">
+            <div class="copy">CopyRight &copy; by KF Corp</div></div>
+        <script>
+            let popup = document.getElementById("popup");
+              function openPopup(){
+                    popup.classList.add("open-popup");
+                  }
+                      function closePopup(){
+                            popup.classList.remove("open-popup");
+                          }
+        </script>
+    </body>
+</html>
